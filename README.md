@@ -30,6 +30,7 @@
 
 - [计算条件与交付检查表](docs/handoff.md)
 - [进度与验收](docs/progress.md)
+- [Background讨论草稿（待审核）](drafts/background.md)
 
 ## 课程要求与协作建议
 
