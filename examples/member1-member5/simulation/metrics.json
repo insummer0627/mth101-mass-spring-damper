@@ -1,0 +1,27 @@
+{
+  "parameters": {
+    "m_kg": 1.0,
+    "c_Ns_per_m": 0.8,
+    "k_N_per_m": 4.0,
+    "F0_N": 1.0,
+    "omega_rad_per_s": 1.5,
+    "x0_m": 0.0,
+    "v0_m_per_s": 0.0,
+    "T_s": 30.0
+  },
+  "parameter_source": "self-selected illustrative values, not literature or experimental values",
+  "method": "fixed-step classical RK4",
+  "h_s": 0.01,
+  "max_abs_error_m": 1.7634878557437617e-09,
+  "half_step_max_abs_error_m": 1.1011419553952351e-10,
+  "error_ratio": 16.015081862090973,
+  "analytical_ode_residual_max_N": 5.551115123125783e-16,
+  "analytical_initial_x_m": 0.0,
+  "analytical_initial_v_m_per_s": 0.0,
+  "steady_amplitudes_m": {
+    "0.4": 0.5405405405405405,
+    "0.8": 0.47127362962627306,
+    "1.6": 0.33666980425682386
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

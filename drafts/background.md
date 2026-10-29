@@ -1,28 +1,29 @@
-# Background — discussion draft
+# Part 1 Background sample
 
-> 状态：待小组审核，非提交定稿。此版本来自此前聊天中的AI生成及修改文本，尚未经作者独立重写。课程文件仅允许AI语言润色；请按实际情况处理使用声明，并核查课程要求。研究范围与仿真承诺也需全组确认。
+学习与小组讨论示例。课程原始任务书尚未提供；仓库记载AI仅可语言润色，因此请核实允许范围，不要把本示例当作本人独立写作直接提交。以下按英文报告第一部分Background理解，不是完整报告。
 
-Mechanical equipment often experiences repeated forces during operation. For example, an unbalanced rotating component can produce a periodic force [1,2]. This can cause unwanted vibration, which may increase wear and lead to mechanical failure [1]. Studying this behaviour helps us understand why vibration needs to be considered in engineering.
+## Background
 
-In this project, we study a mass–spring–damper system under a harmonic external force. It is a simplified model rather than a complete description of a real machine. We focus on how the motion changes over time, including the initial transient response and the steady-state response [3]. We also examine how the forcing frequency affects the vibration.
+Mechanical equipment can experience repeated forces during operation. Rotating imbalance is one source of vibration, and excessive vibration can contribute to wear or failure [1]. A mass–spring–damper system provides a simple way to study this behaviour: the mass represents inertia, the spring provides a restoring force, and the damper represents energy dissipation [2].
 
-We describe the system using an ordinary differential equation and use the Laplace transform to solve it with given initial conditions [4]. We then use Python to calculate a numerical solution and compare it with the analytical result. The graphs help us explain the response more clearly. Finally, we discuss the model’s limitations and the differences between this simple model and real equipment.
+This project considers a single degree of freedom system subjected to a harmonic external force. The displacement is measured from the static equilibrium position. With a linear spring and viscous damping, the motion is described by a second order ordinary differential equation [2]. The model allows us to distinguish the transient motion associated with the initial conditions from the steady periodic response maintained by the external force [2,3].
 
-## References — verify before submission
+Our aim is to investigate the displacement over time and how it changes when damping is varied while the other conditions remain fixed. We plan to compare an analytical solution with a numerical solution under identical conditions. This comparison checks the consistency of the calculations; it does not establish that the model accurately predicts a particular machine. The study therefore connects differential equations with an engineering vibration problem while keeping the assumptions and limitations explicit.
 
-[1] University of Alberta (n.d.). *Classification of Vibrations*. https://engcourses-uofa.ca/books/vibrations-and-sound/introduction/classification-of-vibrations/
+## 中文理解和对接
 
-[2] University of Alberta (n.d.). *Simple Spring–Mass System*. https://engcourses-uofa.ca/books/vibrations-and-sound/forced-vibrations-of-undamped-single-degree-of-freedom-systems/9155-2/
+第一段说明工程动机和三个元件的含义；第二段确定单自由度、静平衡参考位置、线性弹簧和黏性阻尼；第三段提出时间响应、阻尼比较以及解析数值对照的研究目的。这里的研究范围是建议，成员2和3需要确认。
 
-[3] Massachusetts Institute of Technology (2016). *Lecture 3: Driven Oscillators, Transient Phenomena, Resonance*. MIT OpenCourseWare. https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/pages/part-i-mechanical-vibrations-and-waves/lecture-3/
+没有把拉普拉斯变换写成已完成的方法。成员4若确定使用拉普拉斯变换，再把第三段第二句改为：We plan to use the Laplace transform to solve the initial value problem and compare the result with a numerical solution under identical conditions. 并引用[4]。
 
-[4] Massachusetts Institute of Technology (2011). *Laplace Transform: Solving Initial Value Problems*. MIT OpenCourseWare. https://www.ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/resources/mit18_03scf11_s29_0intro/
+## References
 
-## Review checklist
+[1] University of Alberta. (n.d.). Classification of Vibrations. Engineering at Alberta Courses. https://engcourses-uofa.ca/books/vibrations-and-sound/introduction/classification-of-vibrations/
 
-- [ ] 成员2确认工程背景与外力设定一致。
-- [ ] 成员3确认瞬态、稳态和频率影响属于实际研究范围。
-- [ ] 成员4确认解析工作与本文承诺一致。
-- [ ] 成员5确认Python数值对照工作可完成。
-- [ ] 成员6核查引用信息与格式。
-- [ ] 由作者独立完成符合课程要求的提交稿，并如实记录AI使用。
+[2] University of Alberta. (n.d.). Damped Spring Mass System. Engineering at Alberta Courses. https://engcourses-uofa.ca/books/vibrations-and-sound/forced-vibrations-of-damped-single-degree-of-freedom-systems/damped-spring-mass-system/
+
+[3] Massachusetts Institute of Technology. (2016). Lecture 3: Driven Oscillators, Transient Phenomena, Resonance. MIT OpenCourseWare, Physics III: Vibrations and Waves. https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/pages/part-i-mechanical-vibrations-and-waves/lecture-3/
+
+[4] Massachusetts Institute of Technology. (2011). Laplace Transform: Solving Initial Value Problems. MIT OpenCourseWare, Differential Equations. https://www.ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/resources/mit18_03scf11_s29_0intro/
+
+网页访问核查日期：2026-10-29。编号为交接用格式，最终由成员6按课程要求统一。教学文献支持模型背景和方法，不提供本包的演示参数，也不是该模型对真实机器的实验验证。
