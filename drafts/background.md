@@ -1,7 +1,6 @@
 # Part 1 Background sample
 
-已对照MTH101_CW.pdf第1–2页及Example Reports.pdf中弹簧系统示例（PDF第60–61页）核查。本文件包含Background讨论sample及交接说明，不是完整报告。内容保留原有AI辅助生成记录，未因本次语言与结构修订改变其来源。
-
+已对照MTH101_CW.pdf第1–2页及Example Reports.pdf中弹簧系统示例（PDF第60–61页）核查。本文件包含Background讨论sample及交接说明，不是完整报告。
 ## Background
 
 Mechanical equipment can experience repeated forces during operation. Rotating imbalance is one source of vibration, and excessive vibration can contribute to wear or failure [1]. Understanding the response to periodic forcing is therefore relevant to engineering vibration analysis. A mass–spring–damper system provides a simple representation of inertia, elastic restoring forces and energy dissipation [2].
