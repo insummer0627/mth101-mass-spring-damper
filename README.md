@@ -30,6 +30,7 @@
 
 - [计算条件与交付检查表](docs/handoff.md)
 - [进度与验收](docs/progress.md)
+- [依据课程任务书的Background核查记录](docs/background_review.md)
 - [Background sample（讨论与学习示例）](drafts/background.md)
 - [成员1与5交接说明及运行方法](examples/member1-member5/group_handoff.md)
 - [仿真代码（Python 3，仅标准库）](examples/member1-member5/simulation_sample.py)

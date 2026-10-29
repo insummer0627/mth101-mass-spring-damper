@@ -17,12 +17,12 @@
 |英文Background sample及中文说明|已提供讨论版|2核对工程场景，3核对研究承诺|
 |文献与引用用途|网页已核查|6按课程格式统一|
 |仿真源码、数据、图表、误差记录|已生成演示版|2提供参数，4确认解析式，3和4审核|
-|课程适配|仅有仓库转述|核实原始任务书、sample、截止日期、AI规则|
+|课程适配|已核对原始任务书与示例|全文和最终研究范围仍待组内审核|
 |真实设备验证|没有实验数据|不可将数值一致称为真实实验验证|
 
 ## 课程要求适配
 
-仓库转述：正文800–1000词，包含Background、Description of the model(s)、Explanation of the solutions、Conclusion、References；方程、图与参考文献列表不计入正文。未见原始课程PDF，不能视为已核实的官方要求。MTH101代码本身不足以确定学校、教学大纲或评分标准。
+已核对MTH101_CW.pdf第1页：正文800–1000词，包含Background、Description of the model(s)、Explanation of the solutions、Conclusion、References；方程、图与参考文献列表不计入正文。任务书第2页要求一组提交一份报告，封面列全员姓名和学号。Background核查见[检查记录](../../docs/background_review.md)。
 
 建议正文约900词：Background约200，Model约200，Solutions约350，Conclusion约150。该分配为建议，不是课程要求。../../drafts/background.md的英文部分约200词。两张核心图已足以支持当前建议范围；频率响应图是选做，不为凑数而加入。
 
